@@ -63,15 +63,15 @@ Parameters:
 In my project I used this tecnologies for a app that help the developer to discover every possible events that you can use with a UIButton in UIKIt.
 The events could be: 
 
--UIControlEventTouchCancel : A system event canceling the current touches for the control.
--UIControlEventTouchDown : A touch-down event in the control.
--UIControlEventTouchDownRepeat : A repeated touch-down event in the control; for this event the value of the UITouch tapCount method is greater than one. 
--UIControlEventTouchDragEnter : An event where a finger is dragged into the bounds of the control.
--UIControlEventTouchDragExit : An event where a finger is dragged from within a control to outside its bounds.
--UIControlEventTouchDragInside : An event where a finger is dragged inside the bounds of the control.
--UIControlEventTouchDragOutside : An event where a finger is dragged just outside the bounds of the control.
--UIControlEventTouchUpInside : A touch-up event in the control where the finger is inside the bounds of the control.
--UIControlEventTouchUpOutside : A touch-up event in the control where the finger is outside the bounds of the control.
+- UIControlEventTouchCancel : A system event canceling the current touches for the control.
+- UIControlEventTouchDown : A touch-down event in the control.
+- UIControlEventTouchDownRepeat : A repeated touch-down event in the control; for this event the value of the UITouch tapCount method is greater than one. 
+- UIControlEventTouchDragEnter : An event where a finger is dragged into the bounds of the control.
+- UIControlEventTouchDragExit : An event where a finger is dragged from within a control to outside its bounds.
+- UIControlEventTouchDragInside : An event where a finger is dragged inside the bounds of the control.
+- UIControlEventTouchDragOutside : An event where a finger is dragged just outside the bounds of the control.
+- UIControlEventTouchUpInside : A touch-up event in the control where the finger is inside the bounds of the control.
+- UIControlEventTouchUpOutside : A touch-up event in the control where the finger is outside the bounds of the control.
 
 In the project every event is combined with an animation in SwiftUI to have a visual feedback of what's happening. (Thanks the notification center methods)
 
