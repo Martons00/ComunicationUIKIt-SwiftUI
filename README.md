@@ -1,5 +1,8 @@
 # ComunicationUIKIt-SwiftUI
 
+![AroundedIconCOnf](https://user-images.githubusercontent.com/102661910/228589978-e0a63f6a-67f8-42f3-be3d-6339d4b99ba0.png)
+
+
 This repository aims to explain how to make a UIView in UIKit and a View in SwiftUI communicate with each other using the "Notification Center" feature.
 Additionally, the demo project aims to demonstrate and list all possible events that can occur on a button by providing a visual effect through SwiftUI animations that show the sequence of these events.
 
