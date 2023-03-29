@@ -13,6 +13,9 @@
 		9FCD5EFB29D337400008FF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD5EF929D337400008FF47 /* Main.storyboard */; };
 		9FCD5EFD29D337420008FF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD5EFC29D337420008FF47 /* Assets.xcassets */; };
 		9FCD5F0029D337420008FF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD5EFE29D337420008FF47 /* LaunchScreen.storyboard */; };
+		9FCD5F0829D33D980008FF47 /* SwiftUIPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD5F0729D33D980008FF47 /* SwiftUIPortraitView.swift */; };
+		9FCD5F0C29D38A510008FF47 /* AnimationBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD5F0B29D38A510008FF47 /* AnimationBallView.swift */; };
+		9FCD5F0E29D39F850008FF47 /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD5F0D29D39F850008FF47 /* ExplanationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9FCD5EFC29D337420008FF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCD5EFF29D337420008FF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCD5F0129D337420008FF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCD5F0729D33D980008FF47 /* SwiftUIPortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPortraitView.swift; sourceTree = "<group>"; };
+		9FCD5F0B29D38A510008FF47 /* AnimationBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBallView.swift; sourceTree = "<group>"; };
+		9FCD5F0D29D39F850008FF47 /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				9FCD5EF329D337400008FF47 /* AppDelegate.swift */,
 				9FCD5EF529D337400008FF47 /* SceneDelegate.swift */,
 				9FCD5EF729D337400008FF47 /* ViewController.swift */,
+				9FCD5F0729D33D980008FF47 /* SwiftUIPortraitView.swift */,
+				9FCD5F0B29D38A510008FF47 /* AnimationBallView.swift */,
 				9FCD5EF929D337400008FF47 /* Main.storyboard */,
+				9FCD5F0D29D39F850008FF47 /* ExplanationViewController.swift */,
 				9FCD5EFC29D337420008FF47 /* Assets.xcassets */,
 				9FCD5EFE29D337420008FF47 /* LaunchScreen.storyboard */,
 				9FCD5F0129D337420008FF47 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCD5F0C29D38A510008FF47 /* AnimationBallView.swift in Sources */,
 				9FCD5EF829D337400008FF47 /* ViewController.swift in Sources */,
+				9FCD5F0E29D39F850008FF47 /* ExplanationViewController.swift in Sources */,
 				9FCD5EF429D337400008FF47 /* AppDelegate.swift in Sources */,
 				9FCD5EF629D337400008FF47 /* SceneDelegate.swift in Sources */,
+				9FCD5F0829D33D980008FF47 /* SwiftUIPortraitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
