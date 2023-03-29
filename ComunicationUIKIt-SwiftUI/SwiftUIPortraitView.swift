@@ -21,7 +21,8 @@ struct SwiftUIPortraitView: View {
                     .foregroundColor(Color.white)
             }
         }
-        .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("StringToPass"))) { notification in
+        .onReceive(
+            NotificationCenter.default.publisher(for: NSNotification.Name("StringToPass"))) { notification in
             if let string = notification.userInfo?["string"] as? String {
                 gesture = string
             }

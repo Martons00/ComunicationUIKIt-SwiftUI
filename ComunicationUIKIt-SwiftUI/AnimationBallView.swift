@@ -59,7 +59,7 @@ struct AnimationBallView: View {
                     upOutside = false
                 }
                 if gesture == "Touch Up Inside"{
-                    scaleFlag = 0.5
+                    scaleFlag = 0.7
                 }
                 if gesture == "Touch Down Repeat"{
                     doubleDown = true
